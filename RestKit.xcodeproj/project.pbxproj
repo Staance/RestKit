@@ -538,8 +538,10 @@
 		C0F11CE6190883460054AEA0 /* RKPathMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F11CE2190883380054AEA0 /* RKPathMatcher.m */; };
 		C0F11CE81908C7E60054AEA0 /* RKCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F11CE71908C7E60054AEA0 /* RKCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0F11CE91908C7E60054AEA0 /* RKCoreData.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F11CE71908C7E60054AEA0 /* RKCoreData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2FA73411CDA7BB2003D328A /* lcl_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FA733F1CDA7BB2003D328A /* lcl_RK.h */; };
 		D2FA73421CDA7BB2003D328A /* lcl_RK.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA73401CDA7BB2003D328A /* lcl_RK.m */; };
+		D2FA73431CDA83BC003D328A /* lcl_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FA733F1CDA7BB2003D328A /* lcl_RK.h */; };
+		D2FA73441CDA83CD003D328A /* lcl_RK.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FA733F1CDA7BB2003D328A /* lcl_RK.h */; };
+		D2FA73451CDA8478003D328A /* lcl_RK.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FA73401CDA7BB2003D328A /* lcl_RK.m */; };
 		FFD7948D0AE44A4290977909 /* libPods-RestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA1EF52129B3341280753E4 /* libPods-RestKit.a */; };
 /* End PBXBuildFile section */
 
@@ -1667,7 +1669,6 @@
 				254372A815F54995006E8424 /* RKObjectParameterization.h in Headers */,
 				254372B815F54C3F006E8424 /* RKHTTPRequestOperation.h in Headers */,
 				254372BC15F54C3F006E8424 /* RKObjectManager.h in Headers */,
-				D2FA73411CDA7BB2003D328A /* lcl_RK.h in Headers */,
 				254372C015F54C3F006E8424 /* RKPaginator.h in Headers */,
 				254372C415F54C3F006E8424 /* RKObjectRequestOperation.h in Headers */,
 				254372C815F54C3F006E8424 /* RKRequestDescriptor.h in Headers */,
@@ -1693,6 +1694,7 @@
 				25A8C2341673BD480014D9A6 /* RKConnectionTestExpectation.h in Headers */,
 				25A199D416ED035A00792629 /* RKBenchmark.h in Headers */,
 				25C6C0E81716F79B00C98A73 /* RKOperationStateMachine.h in Headers */,
+				D2FA73431CDA83BC003D328A /* lcl_RK.h in Headers */,
 				54CDB45B17B408B100FAC285 /* RKStringTokenizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1785,6 +1787,7 @@
 				25A8C2351673BD480014D9A6 /* RKConnectionTestExpectation.h in Headers */,
 				25A199D516ED035A00792629 /* RKBenchmark.h in Headers */,
 				25C6C0E91716F79B00C98A73 /* RKOperationStateMachine.h in Headers */,
+				D2FA73441CDA83CD003D328A /* lcl_RK.h in Headers */,
 				54CDB45C17B408B100FAC285 /* RKStringTokenizer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2339,6 +2342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FA73451CDA8478003D328A /* lcl_RK.m in Sources */,
 				25160F45145655C60060A5C5 /* RKDynamicMapping.m in Sources */,
 				25160F47145655C60060A5C5 /* RKErrorMessage.m in Sources */,
 				25160F4B145655C60060A5C5 /* RKAttributeMapping.m in Sources */,
